@@ -1,23 +1,26 @@
-'use client'
+"use client";
 
-import Hero from "@/components/sub/Hero";
-import Navbar from "@/components/Navbar";
+
 import { useRef, useState } from "react";
-import About from "@/components/About";
-import Projects from "@/components/Projects";
-import ContactPage from "@/components/Contacts";
+import About from "./(main)/About";
+import Projects from "./(main)/Project/page";
+import ContactPage from "./(main)/Contacts";
+import Footer from "./(main)/Footer";
+import Hero from "./(main)/Hero";
+import Navbar from "./(main)/Navbar";
 
 export default function Home() {
   const [id, setId] = useState(0);
-  const compsRef = useRef(null)
-   return (
+  const compsRef = useRef(null);
+  return (
     <>
-      <Navbar />
+      <Navbar/>
       <div>
         <Hero />
-        <About/>
-        <Projects/>
-        <ContactPage/>
+        <About />
+        <Projects />
+        <ContactPage />
+        <Footer />
       </div>
     </>
   );

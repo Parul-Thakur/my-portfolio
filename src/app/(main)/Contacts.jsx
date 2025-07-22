@@ -20,7 +20,7 @@ const ContactPage = () => {
   return (
     <div  id="contact" className="bg-black text-white">
     <motion.div
-      className="max-w-xl mx-auto px-4 py-12   "
+      className="max-w-3xl mx-auto px-4 py-12   "
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
