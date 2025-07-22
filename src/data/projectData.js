@@ -215,7 +215,7 @@ const projects = [
       },
     ],
     github: "https://github.com/Parul-Thakur/realtor-clone-react",
-    videoDemo: "https://1drv.ms/v/c/0be1fbd1ce9f69fe/Ef5pn87R--EggAsF5gMAAAABqVS4q3KhECYyMfMOg7j0Aw?e=aiFUi0",
+    videoDemo: "https://1drv.ms/v/c/0be1fbd1ce9f69fe/Ef5pn87R--EggAsF5gMAAAABqVS4q3KhECYyMfMOg7j0Aw?e=6cF34X",
   },
 
 
@@ -317,7 +317,7 @@ const projects = [
       },
     ],
     github: "https://github.com/Parul-Thakur/campsite-chronicles",
-    videoDemo: "https://1drv.ms/v/c/0be1fbd1ce9f69fe/Ef5pn87R--EggAsI5gMAAAABxaI0YUDvKhELZGdyr0qa4g?e=gvrIRm",
+    videoDemo: "https://1drv.ms/v/c/0be1fbd1ce9f69fe/Ef5pn87R--EggAsI5gMAAAABxaI0YUDvKhELZGdyr0qa4g?e=qWvfmf",
   },
   {
     id: 7,
@@ -360,7 +360,8 @@ const projects = [
       { name: "Database", icon: <FaDatabase className="text-teal-600" /> },
     ],
     github: "https://github.com/Parul-Thakur/Zing-Shopping",
-    videoDemo: "https://1drv.ms/v/c/0be1fbd1ce9f69fe/Ef5pn87R--EggAsG5gMAAAABXohZPI9rGYvpwgNsxkcjNQ?e=Abpark",
+    videoDemo: "https://1drv.ms/v/c/0be1fbd1ce9f69fe/Ef5pn87R--EggAsG5gMAAAABXohZPI9rGYvpwgNsxkcjNQ?e=r0gYOo",
+    
   },
 ];
 
