@@ -17,9 +17,8 @@ import {
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
 
-export default async function ProjectDetailPage({ params }) {
-  const resolvedParams = await params; // Await if needed
-  const { id } = resolvedParams;
+export default  function ProjectDetailPage({ params }) {
+  const { id } =  React.use(params);;
   const router = useRouter();
   const project = projects.find((p) => p.id.toString() === id);
 
